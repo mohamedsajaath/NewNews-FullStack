@@ -1,0 +1,25 @@
+
+       ul {
+            margin-left: 50%;
+        }
+
+        .user {
+            height: 150px;
+            border-radius: 100%;
+            box-shadow: 0px 0px 50px white;
+            margin-bottom: 20px;   
+        }
+        .dropdown {
+            position: relative;
+            margin-top:-15px;
+            margin-left: 6px;
+          
+            z-index: 1;
+        }
+        .img-dropdown-btn{
+            height: 30px;
+            width: 40px;
+            color:black;
+            padding-top: -40px;
+           
+        }

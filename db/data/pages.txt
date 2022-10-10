@@ -1,0 +1,12 @@
+CREATE TABLE `pages` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `subject_id` int(11) NOT NULL,
+  `menu_name` longtext NOT NULL,
+  `position` int(11) NOT NULL,
+  `visible` tinyint(1) NOT NULL,
+  `content` longtext NOT NULL,
+  `images` varchar(255) NOT NULL,
+  `link` longtext DEFAULT NULL,
+  PRIMARY KEY (`id`,`position`),
+  KEY `subject_id` (`subject_id`)
+)

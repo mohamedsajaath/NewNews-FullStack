@@ -1,0 +1,9 @@
+CREATE TABLE `subjects` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `menu_name` varchar(50) NOT NULL,
+  `position` int(11) NOT NULL,
+  `visible` tinyint(1) NOT NULL,
+  `subject_id` int(11) NOT NULL,
+  `images` varchar(50) DEFAULT NULL,
+  PRIMARY KEY (`id`,`subject_id`)
+)

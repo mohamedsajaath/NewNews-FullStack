@@ -1,0 +1,2 @@
+INSERT INTO admins (user_name,hashed_password)
+VALUE ('admin@mail.com','0192023a7bbd73250516f069df18b500');

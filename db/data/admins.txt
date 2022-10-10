@@ -1,0 +1,6 @@
+CREATE TABLE `admins` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `user_name` varchar(50) NOT NULL,
+  `hashed_password` varchar(60) NOT NULL,
+  PRIMARY KEY (`id`)
+)

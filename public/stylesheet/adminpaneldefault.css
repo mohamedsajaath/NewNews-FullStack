@@ -1,0 +1,170 @@
+.l-side-margin{
+    margin-left: 5px;
+}
+
+
+
+.sub-row {
+    height: 88.7vh;
+    width: 100%;
+}
+
+.side-nav {
+    height:100%;
+    background-color:#06283D;
+}
+
+.side-nav::before {
+    content: '';
+    position: absolute;
+    margin-left: 95.4%;
+    height: 50px;
+    width: 50px;
+    border-radius: 10px 0px 0px 0px;
+    box-shadow: -10px -10px 0px #06283D;
+
+}
+
+.header-name-m {
+    margin-left: 30px;
+}
+
+
+
+
+
+
+
+.side-navbar {
+    width: 106%;
+}
+
+.side-nav-ul {
+    margin: 0px;
+    width: 100%;
+    padding-top: 40px;
+}
+.side-nav-ul a{
+text-decoration: none;
+}
+
+.side-nav-ul-li {
+    color: white;
+    border: solid 0px rgb(177, 177, 177);
+    width: 99.5%;
+    height:50px;
+    text-align: left;
+    padding: 15px;
+    border-radius: 0px 0px 0px 0px;
+    font-weight: bold;
+    margin-top: 2px;
+    padding-left: 50px;
+
+
+}
+.side-nav-ul-li:hover{
+    font-weight:500;
+    z-index: 2;
+    border-radius: 10px 10px 10px 10px;
+
+}
+
+
+
+
+
+
+
+
+.side-control-nav-ul {
+    position: absolute;
+    margin: 0px;
+    width: 70%;
+    padding-top: 20px;
+    margin-left: 10%;
+}
+.side-control-nav-ul-li {
+    color: white;
+    border: solid 1px rgb(177, 177, 177);
+    width: 99.5%;
+    height: 50px;
+    text-align: left;
+    padding: 15px;
+    border-radius: 50px;
+    font-weight: bold;
+    margin-top: 3px;
+    padding-left: 50px;
+}
+.side-control-nav-ul-li:hover{
+   background-color: #FFFFFF;
+   color: #06283D;
+}
+
+
+
+/* admin img */
+.admin-user{
+    height:35px;
+    margin-top: -5px;
+}
+
+
+
+
+
+
+
+
+
+
+/* curved nav */
+.side-nav-ul-li-BefAft {
+    border: solid 1px rgb(255, 255, 255);
+    width: 90%;
+    height: 50px;
+    text-align:left;
+    padding: 15px;
+    border-radius: 5px 0px 0px 5px;
+    margin-left: 10%;
+    background-color: white;
+    font-weight: bold;
+    padding-left: 50px;
+    color: black;
+}
+.side-nav-ul-li-BefAft::before {
+    content: '';
+    position: absolute;
+    top: auto;
+    bottom: auto;
+    right: 0;
+    height: 30px;
+    width: 30px;
+    background-color: #06283D;
+    border-radius: 0px 10px 0px 0px;
+    margin-top: 34px;
+    box-shadow: 10px -20px 0px rgb(255, 255, 255)   
+}
+.side-nav-ul-li-BefAft::after {
+    content: '';
+    position: absolute;
+    top: auto;
+    bottom: auto;
+    right: 0;
+    height: 30px;
+    width: 30px;
+    background-color: #06283D;
+    border-radius: 0px 0px 10px 0px;
+    margin-top: -46px;
+    box-shadow: 10px 20px 0px rgb(255, 255, 255);
+
+}
+
+.content-div{
+    width:98%;
+    height:90%;
+    margin-left:2%;
+    margin-top:3%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding:20px;
+}
